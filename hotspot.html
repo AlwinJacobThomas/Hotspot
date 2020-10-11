@@ -1,0 +1,39 @@
+<!Doctype html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotspot</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="sidenav">
+        <ul>
+            <li><a href="Index.html">HOME</a></li>
+            <li><a href="hotspot.html">Find Hotspots</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </div>
+    <div id="header">
+        <div id="side-nav-btn" onclick="opennav()">
+            <div class="btn"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+        </div>
+        
+        <div class="header" onclick="closenav()"><span>FINDSPOT</span></div>
+    
+       
+    </div>
+    <div id="section" onclick="closenav()">
+       <div>
+        <h1>FIND HotSpots near you</h1>
+         <input type="text" id="country" placeholder="COUNTRY"><br>
+         <input type="text" id="state" placeholder="STATE"><br>
+         <input type="text" id="district" placeholder="DISTRICT"><br>
+         <button type="submit">FIND</button>
+       </div>
+    </div>
+</body>
+</html>
